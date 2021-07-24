@@ -1,3 +1,2 @@
-# web-platform-y9cjkb
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-y9cjkb)
+Hello There this is my profile card!!
+In have built it using html and css
