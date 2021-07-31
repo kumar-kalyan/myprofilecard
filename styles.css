@@ -1,66 +1,28 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  background-color: whitesmoke;
+  background-color:rgba(212, 208, 208, 0.493);
   cursor: pointer;
-}
-a {
-  text-decoration: none;
-  color: #250e25;
-  padding: 10px;
-}
-.btn{
-  height: 4rem;
-  width: 6rem;
-  padding:1rem;
-  color: black;
-  background-color: white;
-  border-radius: 10px;
-  margin-top: 2rem;
-  margin-left: 6rem ;
+  font-weight: 300;
 }
 .card {
-  
-  perspective: 150rem;
-  position: relative;
-  height: 10rem;
-  max-width: 600px;
-  margin: 10rem ;
-  margin-left: 20rem;
-  box-shadow: none;
-  background: none;
-  
-}
-
-.card-side {
+  width: 30rem;
   height: 15rem;
-  border-radius: 15px;
-  transition: all 0.5s ease;
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 80%;
-  padding:2rem;
-  color: white
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #a34a9d 46%,
+    #f6ac23 100%
+  );
+  border-radius: 15px 15px;
+  padding: 2%;
+  margin: auto;
+  border-style: none;
+  
 }
-
-.card-side.back {
-  transform: rotateY(-180deg);
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+.container {
+  padding: 10%;
 }
-
-.card-side.front {
-  background-color: #0093E9;
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+#contact a {
+  color: black;
 }
-
-.card:hover .card-side.front {
-  transform: rotateY(180deg);
-}
-
-.card:hover .card-side.back {
-  transform: rotateY(10deg);
-}
-
-
